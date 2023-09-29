@@ -1,15 +1,14 @@
-// src/App.js
-import React from "react";
 import "./App.css";
 import ProductTable from "./components/ProductTable";
-import Example from "./components/Example";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Product Table</h1>
-
-      <Example />
+    <div>
+      <h1 className=" font-bold text-2xl mb-4 leading-8 tracking-wide">
+        Product Table
+      </h1>
+      <ProductTable />
+      {/* <Example /> */}
     </div>
   );
 }
